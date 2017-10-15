@@ -20,7 +20,6 @@ $(document).ready(function() {
                 }
             }).done(function(repos){
                 repos.forEach(function(repo) {
-                    console.log(repo.name);
                     $('.repos').append(`
                         <div class="well">
                             <div class="row">
